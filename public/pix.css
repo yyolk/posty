@@ -63,11 +63,12 @@ button:active {
   font-size: 12px;
   text-shadow: -1px -1px 0 #1d1d1e;
   text-align: center;
+  background: rgba(34,34,34,.9);
   -webkit-font-smoothing: antialiased;
 }
 
 #drop.over {
-  background: #2b2b2b;
+  background: rgba(43,43,43,.9);
   color: white;
 }
 

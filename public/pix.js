@@ -4,6 +4,7 @@
  */
 
 var Dropload = require('dropload')
+  , Masonry = require('vanilla-masonry')
   , thumb = require('thumb')
   , File = require('file');
 
@@ -40,4 +41,8 @@ drop.on('upload', function(upload){
       images.appendChild(li);
     });
   });
+});
+
+var wall = new Masonry(images, {
+  columnWidth: 100
 });

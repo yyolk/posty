@@ -9,7 +9,8 @@
     "component/model": "*",
     "component/histogram": "*",
     "component/progress": "*",
-    "component/thumb": "*"
+    "component/thumb": "*",
+    "danzajdband/vanilla-masonry": "*"
   },
   "scripts": [
     "public/pix.js"
