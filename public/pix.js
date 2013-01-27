@@ -3,7 +3,21 @@
  * Module dependencies.
  */
 
-var Dropload = require('dropload');
+var Dropload = require('dropload')
+  , thumb = require('thumb')
+  , File = require('file');
+
+/**
+ * Ratio.
+ */
+
+var ratio = window.devicePixelRatio || 1;
+
+/**
+ * Image datauri size.
+ */
+
+var size = 2 == ratio ? 600 : 300;
 
 /**
  * Drop uploads.
@@ -11,6 +25,17 @@ var Dropload = require('dropload');
 
 var drop = Dropload(document.querySelector('#drop'));
 
+/**
+ * Images list.
+ */
+
+var images = document.querySelector('#images');
+
 drop.on('upload', function(upload){
-  console.log(upload.file);
+  var file = File(upload.file);
+  file.toDataURL(function(err, uri){
+    thumb(uri, size, size, function(err, img, uri){
+      images.appendChild(img);
+    });
+  });
 });
