@@ -9,5 +9,12 @@
     "component/model": "*",
     "component/histogram": "*",
     "component/progress": "*"
-  }
+  },
+  "scripts": [
+    "public/pix.js"
+  ],
+  "styles": [
+    "public/pix.css"
+  ],
+  "main": "public/boot.js"
 }

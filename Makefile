@@ -1,5 +1,7 @@
 
-build: components
+SRC = $(wildcard public/*.js)
+
+build: components $(SRC)
 	component build
 
 components:
