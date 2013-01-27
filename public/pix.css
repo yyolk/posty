@@ -29,3 +29,9 @@ button:hover {
   background: -webkit-linear-gradient(#3a3a3a, #262626);
   color: #e8ecf4;
 }
+
+button:active {
+  background: #262626;
+  background: -webkit-linear-gradient(bottom, #3a3a3a, #262626);
+  color: #6c6e72;
+}
