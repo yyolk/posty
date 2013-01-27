@@ -14,11 +14,19 @@ h1, h2, h3 {
 }
 
 button {
+  cursor: pointer;
   background: #262626;
   background: -webkit-linear-gradient(#303030, #262626);
   -webkit-border-radius: 3px;
   box-shadow: inset 1px 1px #383838, 1px 1px #2e2e2e;
   border: 1px solid #141414;
   padding: 8px 10px;
+  color: #9f9f9f;
+}
+
+button:hover {
+  background: #262626;
+  background: -webkit-linear-gradient(#3a3a3a, #262626);
+  box-shadow: inset 1px 1px #404040, 1px 1px #2e2e2e;
   color: #9f9f9f;
 }
