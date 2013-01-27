@@ -20,6 +20,7 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(join(__dirname, 'public')));
+app.use(express.static(join(__dirname, 'build')));
 
 app.get('/', function(req, res){
   res.render('index');
