@@ -51,3 +51,16 @@ button:active {
   border-left: none;
   -webkit-border-radius: 0 3px 3px 0;
 }
+
+#drop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  width: 100%;
+  box-shadow: 0 0 0 1px #141414;
+  border-top: 1px solid #2e2e2e;
+  font-size: 12px;
+  text-shadow: -1px -1px 0 #1d1d1e;
+  -webkit-font-smoothing: antialiased;
+}
