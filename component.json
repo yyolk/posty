@@ -1,5 +1,5 @@
 {
-  "name": "pix",
+  "name": "posty",
   "dependencies": {
     "component/dropload": "*",
     "component/upload": "*",
@@ -12,10 +12,10 @@
     "component/thumb": "*"
   },
   "scripts": [
-    "public/pix.js"
+    "public/posty.js"
   ],
   "styles": [
-    "public/pix.css"
+    "public/posty.css"
   ],
-  "main": "public/pix.js"
+  "main": "public/posty.js"
 }
