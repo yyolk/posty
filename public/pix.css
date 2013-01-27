@@ -19,6 +19,7 @@ button {
   background: -webkit-linear-gradient(#303030, #262626);
   -webkit-border-radius: 3px;
   box-shadow: inset 1px 1px #383838, 1px 1px #2e2e2e;
+  text-shadow: -1px -1px 0 #1d1d1e;
   border: 1px solid #141414;
   padding: 8px 10px;
   color: #9f9f9f;
