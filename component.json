@@ -16,5 +16,5 @@
   "styles": [
     "public/pix.css"
   ],
-  "main": "public/boot.js"
+  "main": "public/pix.js"
 }
