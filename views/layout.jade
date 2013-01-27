@@ -1,7 +1,8 @@
 doctype 5
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title= settings.title
+    link(rel='stylesheet', href='/build.css')
   body
     block content
+    script(src='/build.js')
