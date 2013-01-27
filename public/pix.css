@@ -27,6 +27,5 @@ button {
 button:hover {
   background: #262626;
   background: -webkit-linear-gradient(#3a3a3a, #262626);
-  box-shadow: inset 1px 1px #404040, 1px 1px #2e2e2e;
-  color: #9f9f9f;
+  color: #e8ecf4;
 }
