@@ -8,7 +8,8 @@
     "component/classes": "*",
     "component/model": "*",
     "component/histogram": "*",
-    "component/progress": "*"
+    "component/progress": "*",
+    "component/thumb": "*"
   },
   "scripts": [
     "public/pix.js"
