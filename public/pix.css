@@ -80,10 +80,9 @@ button:active {
 #images li {
   margin: .5px;
   list-style: none;
-  float: left;
 }
 
 #images img {
   max-width: 300px;
-  max-height: 200px;
+  max-height: 300px;
 }
