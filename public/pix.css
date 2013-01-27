@@ -71,6 +71,17 @@ button:active {
   color: white;
 }
 
+#images {
+  margin: 0;
+  padding: 0;
+}
+
+#images li {
+  margin: .5px;
+  list-style: none;
+  float: left;
+}
+
 #images img {
   max-width: 300px;
   max-height: 200px;

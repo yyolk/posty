@@ -35,7 +35,9 @@ drop.on('upload', function(upload){
   var file = File(upload.file);
   file.toDataURL(function(err, uri){
     thumb(uri, size, size, function(err, img, uri){
-      images.appendChild(img);
+      var li = document.createElement('li');
+      li.appendChild(img);
+      images.appendChild(li);
     });
   });
 });
