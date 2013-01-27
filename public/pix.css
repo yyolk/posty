@@ -36,3 +36,19 @@ button:active {
   background: -webkit-linear-gradient(bottom, #3a3a3a, #262626);
   color: #6c6e72;
 }
+
+.set button {
+  margin-left: 0;
+  margin-right: 0;
+  -webkit-border-radius: 0;
+}
+
+.set button:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  border-right: none;
+}
+
+.set button:last-child {
+  border-left: none;
+  -webkit-border-radius: 0 3px 3px 0;
+}
