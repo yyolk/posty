@@ -1,4 +1,24 @@
 
 body {
+  font: 14px / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 80px;
+  background: #222;
+  color: #777;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #d6d6d6;
+}
+
+button {
+  background: #262626;
+  background: -webkit-linear-gradient(#303030, #262626);
+  -webkit-border-radius: 3px;
+  box-shadow: inset 1px 1px #383838, 1px 1px #2e2e2e;
+  border: 1px solid #141414;
+  padding: 8px 10px;
+  color: #9f9f9f;
 }
