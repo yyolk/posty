@@ -41,3 +41,13 @@ drop.on('upload', function(upload){
     });
   });
 });
+
+
+// TODO: debounce
+window.onscroll = function(){
+  if (document.body.scrollTop > 40) {
+    document.body.className = 'scroll';
+  } else {
+    document.body.className = '';
+  }
+};

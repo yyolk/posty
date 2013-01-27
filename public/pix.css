@@ -65,7 +65,13 @@ button:active {
   left: 0;
   padding: 80px 80px 30px 80px;
   width: 100%;
-  background: #222;
+  background: rgba(34,34,34,.95);
+  -webkit-transition: box-shadow 150ms, padding 150ms;
+}
+
+body.scroll #heading {
+  box-shadow: 0 0 15px rgba(0,0,0,.9);
+  padding-top: 30px;
 }
 
 #drop {
