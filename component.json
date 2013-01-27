@@ -1,3 +1,13 @@
 {
-  "name": "pix"
+  "name": "pix",
+  "dependencies": {
+    "component/dropload": "*",
+    "component/upload": "*",
+    "component/file": "*",
+    "component/pillbox": "*",
+    "component/classes": "*",
+    "component/model": "*",
+    "component/histogram": "*",
+    "component/progress": "*"
+  }
 }
